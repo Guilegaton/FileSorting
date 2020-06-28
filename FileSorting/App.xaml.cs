@@ -28,16 +28,7 @@ namespace FileSorting
                 if (arguments[1].EndsWith(".magi"))
                 {
                     string filePathFormMainArgs = arguments[1];
-                    MessageBox.Show("BOOM!");
-                    for (int i = 0; i < 100; i++)
-                    {
-                        Thread.Sleep(5000);
-                    }
                 }
-            }
-            for (int i = 0; i < 100; i++)
-            {
-                Thread.Sleep(5000);
             }
         }
     }
